@@ -1,0 +1,97 @@
+ 
+/*Fonte para título:*/
+* {
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+hr{
+  margin: 5% 0;
+}
+
+body {
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Young Serif", serif;
+  font-size: 72px;
+  } 
+
+h2{
+  font-family: "Young Serif", serif;
+} 
+
+/*  Fonte para parágrafo:*/
+ p,li,h3{
+
+   font-family: "Outfit", sans-serif; 
+ } 
+
+p,li {
+  font-size: 20px
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h2{
+color: hsl(14, 45%, 36%) ;
+font-size:42px ;
+}
+
+h3{ color:hsl(332, 51%, 32%);
+}
+
+table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+td+td {
+  color: hsl(30, 10%, 34%);
+  padding: 10px;
+  font-weight: bold;
+}
+
+td {
+  font-family: "Outfit", sans-serif ;
+}
+
+tr+tr{ 
+  border-top: 1px solid black;
+}
+
+div{
+  color: hsl(30, 10%, 34%);
+  background-color:hsl(330, 100%, 98%) ;
+  padding:15px;
+  margin: 5% 0;
+}
+
+li {
+  margin-left: 20px;
+}
+img {
+  width:100%;
+  border-radius:15px ;
+}
+
+/* 
+# Tamanhos das fontes:
+  Título 1: 72px
+  Título 2: 42px
+  Parágrafo: 20px
+  Item da lista: 20px
+  Dado da tabela: 20px
+
+# Cores usadas:
+Preto: #000
+Marrom claro: hsl(30, 10%, 34%) // Hue (tom), Saturation (saturação) 
+  e Lightness (luminosidade)
+  Rosa claro: hsl(330, 100%, 98%)
+  Telha: hsl(14, 45%, 36%)
+  Rosê: hsl(332, 51%, 32%)
+*/
